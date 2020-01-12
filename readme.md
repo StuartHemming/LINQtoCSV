@@ -1,5 +1,10 @@
 # LINQtoCSV
 
+This is a fork of https://github.com/mperdeck/LINQtoCSV
+
+I'm planning to modify this version to that it can be used to specifically ignore certain properites rather than having to use 
+`EnforceCsvColumnAttribute` and then having to tag every field you _do_ want with `CsvColumn`
+
 This library makes it easy to use CSV files with LINQ queries. Its features include:
 
 * Follows the most common rules for CSV files. Correctly handles data fields that contain commas and line breaks.
